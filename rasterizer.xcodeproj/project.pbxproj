@@ -25,10 +25,12 @@
 /* Begin PBXFileReference section */
 		C4833DE82B87B7EF007C95BE /* rasterizer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = rasterizer; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4833DEB2B87B7EF007C95BE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		C4833DF32B87B87D007C95BE /* reprint_v3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = reprint_v3.cpp; path = ../../../../../romanIntegerConverter/src/sketches/reprint_v3.cpp; sourceTree = "<group>"; };
-		C4833DF42B87B87D007C95BE /* reprint_v1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = reprint_v1.cpp; path = ../../../../../romanIntegerConverter/src/sketches/reprint_v1.cpp; sourceTree = "<group>"; };
-		C4833DF52B87B87D007C95BE /* reprint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = reprint.cpp; path = ../../../../../romanIntegerConverter/src/sketches/reprint.cpp; sourceTree = "<group>"; };
-		C4833DF62B87B87D007C95BE /* reprint_v2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = reprint_v2.cpp; path = ../../../../../romanIntegerConverter/src/sketches/reprint_v2.cpp; sourceTree = "<group>"; };
+		C4833DFD2B87BD0F007C95BE /* reprint_v2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = reprint_v2.cpp; sourceTree = "<group>"; };
+		C4833DFE2B87BD0F007C95BE /* simple_print.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = simple_print.cpp; sourceTree = "<group>"; };
+		C4833DFF2B87BD0F007C95BE /* reprint_v1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = reprint_v1.cpp; sourceTree = "<group>"; };
+		C4833E002B87BD0F007C95BE /* reprint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = reprint.cpp; sourceTree = "<group>"; };
+		C4833E012B87BD0F007C95BE /* reprint_v3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = reprint_v3.cpp; sourceTree = "<group>"; };
+		C4833E022B87BD10007C95BE /* bubble_sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bubble_sort.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,10 +72,12 @@
 		C4833DF22B87B82A007C95BE /* sketches */ = {
 			isa = PBXGroup;
 			children = (
-				C4833DF42B87B87D007C95BE /* reprint_v1.cpp */,
-				C4833DF62B87B87D007C95BE /* reprint_v2.cpp */,
-				C4833DF32B87B87D007C95BE /* reprint_v3.cpp */,
-				C4833DF52B87B87D007C95BE /* reprint.cpp */,
+				C4833E022B87BD10007C95BE /* bubble_sort.cpp */,
+				C4833DFF2B87BD0F007C95BE /* reprint_v1.cpp */,
+				C4833DFD2B87BD0F007C95BE /* reprint_v2.cpp */,
+				C4833E012B87BD0F007C95BE /* reprint_v3.cpp */,
+				C4833E002B87BD0F007C95BE /* reprint.cpp */,
+				C4833DFE2B87BD0F007C95BE /* simple_print.cpp */,
 			);
 			path = sketches;
 			sourceTree = "<group>";
